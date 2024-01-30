@@ -1,13 +1,13 @@
-function Contact() {
+function Footer() {
   return (
     <>
       <footer>
         <div className="container">
-          <p>Github</p>
+          <p>&copy; Your Website 2023. Coded by yours truyl!</p>
         </div>
       </footer>
     </>
   );
 }
 
-export default Contact;
+export default Footer;
