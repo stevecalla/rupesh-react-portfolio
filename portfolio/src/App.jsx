@@ -10,12 +10,17 @@ import About from "./pages/About";
 import ProjectGallery from "./pages/ProjectGallery";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import { Navbar } from "./components/Navbar"; // just for the test
+
+import "./App.css"
 
 function App() {
   return (
     <>
       <Router>
+        
         <Header />
+        {/* <Navbar /> */}
         
         {/* Wrap Route elements in a Routes component */}
         <Routes>

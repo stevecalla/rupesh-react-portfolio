@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --primary-white: #fff;
+}
+
+body {
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+/***************** NAVBAR *************************/
+.logo {
+  width: 50px;
+}
+
+/*--------- MENU LINK ------*/
+nav a.nav-link {
+
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 5px;
+    margin-left: 5px;
+  color: var(--primary-white) !important ;
+}
+
+
+
+
+
+
