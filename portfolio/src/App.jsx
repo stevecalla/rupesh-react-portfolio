@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap"; // Import all of Bootstrap's JS
 
-import NavBar from "./components/NavBar";
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ProjectGallery from "./pages/ProjectGallery";
@@ -15,7 +15,8 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <Header />
+        
         {/* Wrap Route elements in a Routes component */}
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}

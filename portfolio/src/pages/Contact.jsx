@@ -1,11 +1,10 @@
+import Footer from "../components/Footer";
+
 function Contact() {
   return (
     <>
-      <footer>
-        <div className="container">
-          <p>Github</p>
-        </div>
-      </footer>
+     <form action="" >Hello</form>
+     
     </>
   );
 }

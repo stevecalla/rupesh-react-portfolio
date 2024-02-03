@@ -2,15 +2,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap"; // Import all of Bootstrap's JS
 import { NavLink } from "react-router-dom";
 
-function NavBar() {
+function Header() {
   return (
     <>
-      <div className="bg-info">
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="/">
-              Navbar
-            </a>
+      <div className="bg-info" >
+        <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{height:"5vh"}}>
+          <div className="container-fluid" style={{height:"5vh"}}>
             <button
               className="navbar-toggler"
               type="button"
@@ -84,4 +81,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Header;
