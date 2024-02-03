@@ -28,7 +28,7 @@ function Home() {
           </p>
           <Link
             to="https://docs.google.com/document/d/1gVe8UY1XWWmOqvEdME9ggCC9NrPfDeFkD76jnH1t3S0/edit"
-            target=""
+            target="_blank" rel="noopener noreferrer"
           >
             <button style={buttonStyle}>Resume</button>
           </Link>

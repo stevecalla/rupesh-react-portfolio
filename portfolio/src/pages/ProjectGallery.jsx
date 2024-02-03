@@ -8,9 +8,10 @@ function ProjectGallery() {
         <h2 className="mb-5 sectionHeading">Project</h2>
 
         <div className="row valueProp">
-          {projects.map((project) => {
-            return <Card project={project} />;
-          })}
+          {projects.map((project => {
+            
+            return <Card project={project} key={project.title}/>;
+          }))}
         </div>
       </div>
     </>
