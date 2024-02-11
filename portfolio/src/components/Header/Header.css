@@ -1,0 +1,22 @@
+/***************** NAVBAR *************************/
+.logo {
+    width: 50px;
+  }
+  
+  /*--------- MENU LINK ------*/
+  nav a.nav-link {
+  
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  nav ul li {
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav > li > a {
+      margin-right: 5px;
+      margin-left: 5px;
+    color: var(--primary-white) !important ;
+  }
+  

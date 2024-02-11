@@ -1,0 +1,55 @@
+.my-skills{
+    background-color: #81b29a;
+
+}
+.skills-container {
+    padding: 1rem 1rem 0 1rem;
+    width: 100%;
+    
+}
+
+.skills-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.skill-item {
+    position: relative;
+    padding: 1rem;
+}
+
+.skill-icon {
+    margin: 1rem;
+    width: 90px;
+    transition: opacity 0.3s, background-color 0.3s; /* Added background-color transition */
+}
+
+.skill-icon:hover {
+  background-color: #f4f1de; /* Added white background color on hover */
+  opacity: 0.2; /* Adjust the value for desired transparency on hover */
+}
+
+.skill-item .skill-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+    color: #3d405b;
+    font-weight: 640;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.skill-item:hover .skill-icon {
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.skill-item:hover .skill-name {
+    position: absolute;
+    opacity: 1;
+}
+
