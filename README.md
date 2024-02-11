@@ -22,7 +22,7 @@ I have worked with React and have multiple projects to share, here is my portfol
 
 # Deployment
 
-[Portfolio](https://rrana5106.github.io/Rupesh-weather-forecast/)
+[Portfolio](https://rrana5106.github.io/rupesh-react-portfolio/)
 
 ## Installation
 
